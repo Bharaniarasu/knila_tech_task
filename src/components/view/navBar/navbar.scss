@@ -1,0 +1,35 @@
+nav {
+  background: #9abc8c;
+  z-index: 99;
+}
+.nav-item a,
+.nav-item {
+  //   color: blue;
+  font-weight: bold;
+}
+.nav-item a:hover,
+.nav-item:hover,
+.nav-link:hover,
+.dropdown-menu:active {
+  color: rgb(255, 251, 0);
+}
+.nav-links {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.dropdown {
+  background: #9abc8c;
+}
+.dropdown-menu {
+  background: #9abc8c !important;
+  border: none !important;
+}
+.dropdown:hover .dropdown-menu {
+  transition: all 0.3s ease-in-out 0s;
+
+  display: block;
+}
+.dropdown-item:hover {
+  background: #9abc8c !important;
+}
